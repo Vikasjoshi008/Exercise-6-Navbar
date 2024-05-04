@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        header {
+            height: 60px;
+            background-color: rgb(59, 59, 59);
+            display: flex;
+            align-items: center;
+            justify-content: right;
+        }
+
+        .logo {
+            background-image: url("Bugatti\ chiron\ SS.image.jpg");
+            background-size: cover;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: left;
+        }
+
+        /* .logobox {
+            height: 40px;
+        } */
+
+        .options {
+            height: 30px;
+           display: flex;
+           justify-content: right;
+           align-items: center;
+        }
+
+        .logo content {
+            display: flex;
+           justify-content: left;
+           align-items: center;
+           /* margin-top: 40px; */
+        }
+
+        .logocon1 {
+            font-size: 30px;
+            font-weight: 900;
+            margin-left: 10px;
+        }
+
+        .logocon2 {
+            font-size: 10px;
+            margin-left: 35px;
+        }
+
+        select {
+            background-color: rgb(59, 59, 59);
+            margin-right: 30px;
+            color: white;
+            border: none;
+            display: flex;
+            justify-content: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <div class="logobox"> -->
+        <nav class="logo"></nav>
+        <div id="logo content">
+            <p class="logocon1">Ultra Edit</p>
+            <p class="logocon2">An idera, inc, company</p>
+        </div>
+        <!-- </div> -->
+
+        <div class="options">
+                <select name="Products" id="one">
+                    <option value="Products">Products</option>
+                    </select>
+                    <select name="Pricing" id="two">
+                    <option value="Pricing">Pricing</option>
+                    </select>
+                    <select name="Resources" id="three">
+                    <option value="Resources">Resources</option>
+                    </select>
+                    <select name="About Us" id="four">
+                    <option value="About US">About Us</option>
+                    </select>
+                    <select name="Security and complaince" id="five">
+                    <option value="Security and compalince">Security and complaince</option>
+                </select>
+        </div>
+    </header>
+</body>
+</html>
