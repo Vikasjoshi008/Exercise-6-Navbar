@@ -99,3 +99,89 @@
     </header>
 </body>
 </html>
+
+Using the logo address link 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+
+        header {
+            height: 60px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .logo {
+            color: white;
+            display: flex;
+        }
+
+        .logo img {
+            width: 164px;        
+        }
+
+        /* .logobox {
+            height: 40px;
+        } */
+
+        .options {
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+        }
+
+        select {
+            background-color: white;
+            margin-right: 30px;
+            font-size: 15px;
+            color: black;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <div class="logobox"> -->
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="ultraedit">
+            </div>
+        </nav>
+        <!-- </div> -->
+
+        <div class="options">
+            <select name="Products" id="one">
+                <option value="Products">Products</option>
+            </select>
+            <select name="Pricing" id="two">
+                <option value="Pricing">Pricing</option>
+            </select>
+            <select name="Resources" id="three">
+                <option value="Resources">Resources</option>
+            </select>
+            <select name="About Us" id="four">
+                <option value="About US">About Us</option>
+            </select>
+            <select name="Security and complaince" id="five">
+                <option value="Security and compalince">Security and complaince</option>
+            </select>
+        </div>
+    </header>
+</body>
+</html>
